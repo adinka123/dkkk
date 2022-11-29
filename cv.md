@@ -13,3 +13,16 @@ I want to learn Front-end development.
 * **Russian** - Native
 * **English** - A2
 * **German** - A2
+## Code Example 
+function getParticipants(h){
+
+    if (h <= 0)
+      return 0;
+    let l = 1;
+    let r = 1;
+      while (r <=h) {
+            r +=l;
+            l++;
+            }
+      return l;
+ }
