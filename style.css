@@ -13,3 +13,49 @@ h1,h2,h3,h4,h5,h6 {
 *,*:before, *:after {
   box-sizing: border-box;
 }
+
+.header {
+  position: absolute;
+  margin-top: 0;
+}
+
+
+.header__wrapper {
+  position: absolute;
+  background-color: black;
+  height: 50px;
+  width: 1600px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .nav{
+  display: flex; 
+  position: absolute;
+  left: 365px;   
+  }  
+
+.nav__link {
+  display: inline-block;
+  flex-direction: row;
+  color: white;
+  width: 105px;
+  height: 22px;
+  top: 29px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-decoration: none; 
+  font-family: 'Roboto';
+  font-style: normal;
+  }
+
+.my__photo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  margin-top: 250px;
+  }
