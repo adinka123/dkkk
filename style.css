@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
-
 .container {
-    max-width: 1600px; 
+    max-width: 1600px;
    }
 
 h1,h2,h3,h4,h5,h6 {
@@ -13,22 +12,4 @@ h1,h2,h3,h4,h5,h6 {
 
 *,*:before, *:after {
   box-sizing: border-box;
-}
-
-.header {
-  position: absolute;
-}
-.header__wrapper {
-    position: absolute;
-    background-color: coral;
-    height: 80px;
-    width: 1600px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    }
-.my__photo {
-  width: 100px;
-  height: 100px;
 }
