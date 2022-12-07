@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 
 .container {
-    max-width: 1600px;
-   }
+  max-width: 1600px;
+}
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
-  font-family: 'Roboto';
-  font-style: normal;
+  font-family:cursive;
 }
 
 *,*:before, *:after {
@@ -19,23 +18,23 @@ h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
 }
 
-
 .header__wrapper {
   position: absolute;
   background-color: black;
   height: 50px;
-  width: 1600px;
+  width: 1000px;
   margin-top: 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  left: 100px;
   }
 
   .nav{
   display: flex; 
-  position: absolute;
-  left: 365px;   
+  position: absolute;  
+  left: 30px;
   }  
 
 .nav__link {
@@ -44,18 +43,163 @@ h1,h2,h3,h4,h5,h6 {
   color: white;
   width: 105px;
   height: 22px;
-  top: 29px;
+  top: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
   text-decoration: none; 
-  font-family: 'Roboto';
-  font-style: normal;
+  font-style:italic;
+  margin-left: 20px;
   }
 
-.my__photo {
-  width: 200px;
-  height: 200px;
+.name__wrapper {
   position: absolute;
-  margin-top: 250px;
+  left: 360px;
+  width: 747px;
+  height: 300px;
+  border: 1px black solid;
+}
+.my__photo {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  margin-top: 50px;
+  left: 110px;
   }
+
+.my__name {
+  text-transform: uppercase;
+  color: black;
+  position: absolute;
+  max-width: 500px;
+  height: 400px;
+  top: 90px;
+  left: 500px;
+  font-size: 40px;
+  line-height: 75%;
+  text-align: center;
+}
+.name__work {
+  text-transform: uppercase;
+  color: black;
+  position: absolute;
+  max-width: 500px;
+  height: 400px;
+  top: 140px;
+  left: 520px;
+  font-size: 20px;
+  line-height: 75%;
+  text-align: center;
+}
+.location {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  font-size: 20px;
+  font-style: italic;
+}
+.phone {
+  position: absolute;
+  top: 250px;
+  left: 400px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.email {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.git {
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.about__wrapper {
+  position: absolute;
+  left: 110px;
+  top: 310px;
+  width: 997px;
+  height: 200px;
+  background-color: black;
+}
+
+.about__title {
+  position: absolute;
+  top: 40px;
+  left: 450px;
+  font-size: 30px;
+  line-height: 75%;
+  color: white;
+}
+.about__text {
+  position: absolute;
+  left: 40px;
+  top: 80px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+
+.skills__wrapper {
+  position: absolute;
+  left: 110px;
+  top: 515px;
+  width: 997px;
+  height: 220px;
+  border: 1px black solid;
+}
+
+.skills__title {
+  position: absolute;
+  top: 30px;
+  left: 480px;
+  font-size: 30px;
+  line-height: 75%;
+  color: black;
+}
+.skills__html {
+  position: absolute;
+  left: 40px;
+  top: 60px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+.skills__css{
+  position: absolute;
+  left: 40px;
+  top: 90px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+
+.skills__figma {
+  position: absolute;
+  left: 40px;
+  top: 120px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+.skills__git{
+  position: absolute;
+  left: 40px;
+  top: 150px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
