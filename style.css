@@ -15,7 +15,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .header {
   position: absolute;
-  margin-top: 0;
 }
 
 .header__wrapper {
@@ -31,11 +30,12 @@ h1,h2,h3,h4,h5,h6 {
   left: 100px;
   }
 
-  .nav{
-  display: flex; 
+.navi {
+  display: flex;
   position: absolute;  
-  left: 30px;
-  }  
+  left: 150px;
+}
+ 
 
 .nav__link {
   display: inline-block;
@@ -49,22 +49,22 @@ h1,h2,h3,h4,h5,h6 {
   line-height: 140%;
   text-decoration: none; 
   font-style:italic;
-  margin-left: 20px;
+  margin-left: 5px;
   }
 
 .name__wrapper {
   position: absolute;
-  left: 360px;
-  width: 747px;
-  height: 300px;
+  left: 109px;
+  width: 998px;
+  height: 301px;
   border: 1px black solid;
 }
 .my__photo {
   width: 250px;
   height: 250px;
   position: absolute;
-  margin-top: 50px;
-  left: 110px;
+  top: 49px;
+  left: 5px;
   }
 
 .my__name {
@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5,h6 {
   max-width: 500px;
   height: 400px;
   top: 90px;
-  left: 500px;
+  left: 400px;
   font-size: 40px;
   line-height: 75%;
   text-align: center;
@@ -86,38 +86,38 @@ h1,h2,h3,h4,h5,h6 {
   max-width: 500px;
   height: 400px;
   top: 140px;
-  left: 520px;
+  left: 420px;
   font-size: 20px;
   line-height: 75%;
   text-align: center;
 }
 .location {
   position: absolute;
-  top: 200px;
-  left: 400px;
+  top: 180px;
+  left: 300px;
   font-size: 20px;
   font-style: italic;
 }
 .phone {
   position: absolute;
-  top: 250px;
-  left: 400px;
+  top: 220px;
+  left: 300px;
   font-size: 20px;
   font-style: italic;
 }
 
 .email {
   position: absolute;
-  top: 200px;
-  left: 700px;
+  top: 180px;
+  left: 650px;
   font-size: 20px;
   font-style: italic;
 }
 
 .git {
   position: absolute;
-  top: 250px;
-  left: 700px;
+  top: 220px;
+  left: 650px;
   font-size: 20px;
   font-style: italic;
 }
@@ -152,16 +152,16 @@ h1,h2,h3,h4,h5,h6 {
 .skills__wrapper {
   position: absolute;
   left: 110px;
-  top: 515px;
-  width: 997px;
-  height: 220px;
+  top: 511px;
+  width: 499px;
+  height: 398px;
   border: 1px black solid;
 }
 
 .skills__title {
   position: absolute;
   top: 30px;
-  left: 480px;
+  left: 200px;
   font-size: 30px;
   line-height: 75%;
   color: black;
@@ -202,4 +202,131 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 20px;
   font-style: italic;
   color: black;
+}
+
+.languages__wrapper {
+  position: absolute;
+  left: 609px;
+  top: 510px;
+  width: 499px;
+  height: 400px;
+  background-color: black;
+  border: 1px white solid;
+}
+
+.languages__title {
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  font-size: 30px;
+  line-height: 75%;
+  color: white;
+}
+.languages__kz {
+  position: absolute;
+  left: 40px;
+  top: 60px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+.languages__ru{
+  position: absolute;
+  left: 40px;
+  top: 90px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+
+.languages__eng {
+  position: absolute;
+  left: 40px;
+  top: 120px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+.languages__de{
+  position: absolute;
+  left: 40px;
+  top: 150px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+}
+
+.code__wrapper {
+  position: absolute;
+  left: 110px;
+  top: 910px;
+  width: 997px;
+  height: 380px;
+  border: 1px black solid;
+}
+
+.code__title {
+  position: absolute;
+  top: 30px;
+  left: 440px;
+  font-size: 30px;
+  line-height: 75%;
+}
+.code__text {
+  position: absolute;
+  left: 40px;
+  top: 30px;
+  right: 40px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.footer__wrapper {
+  position: absolute;
+  background-color: white;
+  height: 70px;
+  width: 997px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  left: 110px;
+  top: 1291px;
+  border: 1px black solid;
+}
+
+.footer__logo{
+  position: absolute;
+  left: 30px;
+  top: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.footer__text{
+  position: absolute;
+  left: 400px;
+  top: 0;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+.git__logo{
+  position: absolute;
+  top: 0;
+  left: 800px;
+  text-decoration: none; 
+  font-style:italic;
+  color: black;
+}
+.git__photo{
+  position: absolute;
+  left: 90px;
+  top: 0;
+  width: 50px;
+  height: 50px;
 }
