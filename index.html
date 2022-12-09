@@ -11,21 +11,22 @@
   <header class="header">
     <div class="container">
       <div class="header__wrapper">
-        <nav class="nav"> 
-          <li><a href="#location" class="nav__link">Contact</a></li>
-          <li><a href="#about" class="nav__link">About</a></li>
-          <li><a href="#skills" class="nav__link">Skills</a></li>
-          <li><a href="#" class="nav__link">Languages</a></li>
-          <li><a href="#"  class="nav__link">Education</a></li>
-          <li><a href="#" class="nav__link">Code Example</a></li>
+        <nav class="navi">
+          <ul class="nav"></ul> 
+            <li><a href="#location" class="nav__link">Contact</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#skills" class="nav__link">Skills</a></li>
+            li><a href="#languges" class="nav__link">Languages</a></li>
+            <li><a href="#code" class="nav__link">Code Example</a></li>
+          </ul> 
         </nav>
       </div>
     </div>
   </header>
-  <section class="name">
+  <section class="main">
     <div class="container">
-      <div class="name__wrapper"></div>
-        <img class="my__photo" src="../assets/image/IMG_0507.jpeg" alt="Adina">
+      <div class="name__wrapper">
+        <img class="my__photo" src="./assets/image/IMG_0507.jpeg" alt="Adina">
         <h1 class="my__name"> Umbetova Adina</h1>
         <h4 class="name__work">Future Front-end developer</h4>
         <p class="location"> Location: Astana, Kazakhstan </p>
@@ -49,10 +50,62 @@
     <div class="container">
       <div class="skills__wrapper">
         <h3 class="skills__title">Skills</h3>
-          <p class="skills__html"> * HTML - <a href="https://code-basics.com/ru/languages/html">https://code-basics.com/ru/languages/html</a></p> 
-          <p class="skills__css"> * CSS - <a href="https://code-basics.com/ru/languages/css">https://code-basics.com/ru/languages/css</a></p>
-          <p class="skills__figma"> * Figma </p> 
-          <p class="skills__git"> * GitHub</p>
+          <ul> 
+            <li class="skills__html"> HTML - <a href="https://code-basics.com/ru/languages/html">https://code-basics.com/ru/languages/html</a></li>
+            <li class="skills__css"> CSS - <a href="https://code-basics.com/ru/languages/css">https://code-basics.com/ru/languages/css</a> </li>
+            <li class="skills__figma"> Figma </li>
+            <li class="skills__git"> GitHub</li>
+          </ul>
+      </div>
+    </div>
+  </section>
+  <section class="languages">
+    <div class="container">
+      <div class="languages__wrapper">
+        <h3 class="languages__title"> Languages</h3>
+        <ul>
+          <li class="languages__kz"> Kazakh - Native</li> 
+          <li class="languages__ru"> Russian - Native</li>
+          <li class="languages__eng"> English - A2</li> 
+          <li class="languages__de"> German - A2</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="code">
+    <div class="container">
+      <div class="code__wrapper">
+        <h3 class="code__title"> Code Example</h3>
+          <pre class="code__text">
+            <code>
+              function getParticipants(h){
+
+                if (h <= 0)
+                  return 0;
+                let l = 1;
+                let r = 1;
+                  while (r <=h) {
+                        r +=l;
+                        l++;
+                        }
+                  return l;
+             }
+            </code>
+          </pre>
+      </div>
+    </div>
+  </section>
+  <section class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <a class="footer__rss" href="https://rs.school/js/">
+          <img src="./assets/image/RS School.png" alt="RSS" class="footer__logo">
+        </a>
+        <p class="footer__text"> November 2022</p>
+        <a class="git__logo" href="https://github.com/adinka123"> 
+          <p>My GitHub</p>
+          <img src="./assets/image/GitHub.jpeg" alt="github" class="git__photo">
+        </a>
       </div>
     </div>
   </section>
